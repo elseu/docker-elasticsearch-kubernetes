@@ -1,24 +1,18 @@
-# This project is no longer maintained
+# because pires has stopped maintaining its repository updates are provided in SDU AWS ECR
 
-As of November 7th, 2018, I've decided to end my commitment to maintaining this repo and related.
-
-This image has surpassed 100k daily downloads and is now steady at ~45k. Amazing!
-
-Anyway, it's been 3 years since I last used Elasticsearch, so I no longer have the motivation it takes to maintain and evolve this project. Also, other projects need all the attention I can give.
-
-It was a great run, **thank you all**.
+[See original repository.](https://github.com/pires/docker-elasticsearch-kubernetes)
 
 # docker-elasticsearch-kubernetes
 
 Ready to use, lean Elasticsearch Docker image ready for using within a Kubernetes cluster.
 
-[![Docker Repository on Quay.io](https://quay.io/repository/pires/docker-elasticsearch-kubernetes/status "Docker Repository on Quay.io")](https://quay.io/repository/pires/docker-elasticsearch-kubernetes)
+[![Original Docker Repository on Quay.io](https://quay.io/repository/pires/docker-elasticsearch-kubernetes/status "Docker Repository on Quay.io")](https://quay.io/repository/pires/docker-elasticsearch-kubernetes)
 
 ## Current software
 
-* Alpine Linux 3.8
-* IcedTea JRE 8u171
-* Elasticsearch 6.4.2
+* Alpine Linux 3.9
+* IcedTea JRE 8u191
+* Elasticsearch 6.5.0
 
 **Note:** `x-pack-ml` module is forcibly disabled as it's not supported on Alpine Linux.
 

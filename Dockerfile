@@ -1,6 +1,6 @@
-FROM quay.io/pires/docker-elasticsearch:6.4.2
+FROM 117533191630.dkr.ecr.eu-west-1.amazonaws.com/upstream-fork/docker-elasticsearch:6.5.0
 
-MAINTAINER pjpires@gmail.com
+MAINTAINER e.vonk@sdu.nl
 
 # Override config, otherwise plug-in install will fail
 ADD config /elasticsearch/config
