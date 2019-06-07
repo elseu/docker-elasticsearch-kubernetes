@@ -1,4 +1,4 @@
-FROM 117533191630.dkr.ecr.eu-west-1.amazonaws.com/upstream-fork/docker-elasticsearch:6.5.0
+FROM 117533191630.dkr.ecr.eu-west-1.amazonaws.com/upstream-fork/docker-elasticsearch:6.6.0
 
 MAINTAINER e.vonk@sdu.nl
 

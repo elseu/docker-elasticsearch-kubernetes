@@ -12,7 +12,7 @@ Ready to use, lean Elasticsearch Docker image ready for using within a Kubernete
 
 * Alpine Linux 3.9
 * IcedTea JRE 8u191
-* Elasticsearch 6.5.0
+* Elasticsearch 6.6.0
 
 **Note:** `x-pack-ml` module is forcibly disabled as it's not supported on Alpine Linux.
 
