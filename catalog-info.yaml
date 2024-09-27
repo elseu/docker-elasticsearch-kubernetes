@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: docker-elasticsearch-kubernetes
+  description: "Ready to use Elasticsearch + Kubernetes discovery plug-in Docker image."
+  annotations:
+    github.com/project-slug: elseu/docker-elasticsearch-kubernetes
+    backstage.io/source-location: url:https://github.com/elseu/docker-elasticsearch-kubernetes/
+  tags:
+    - docker
+spec:
+  type: unspecified
+  owner: team-search
+  lifecycle: unspecified
